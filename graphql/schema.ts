@@ -6,7 +6,6 @@ export const typeDefs = gql`
         weather: String!
         tempC: String!
         tempF: String!
-        precipitation: String
         friends: [String]!
     }
     
@@ -15,7 +14,6 @@ export const typeDefs = gql`
         weather: String
         tempC: String
         tempF: String
-        precipitation: String
         friends: [String]
     }
 
